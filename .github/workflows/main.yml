@@ -1,21 +1,26 @@
 name: Metrics
 on:
-  # Schedule updates
   schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
   workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: "Asia/Shanghai"
+          repositories: 100
+          repositories_forks: yes
+          base: "header"
+          config_order: "base.header, activity, followup, posts"
+          plugin_followup: yes
+          plugin_posts: yes
+          plugin_posts_source: "dev.to"
+          plugin_posts_limit: 4
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 14 # Max age for events, set to 0 for unlimited
+          plugin_activity_days: 14
+          plugin_activity_filter: "all"
