@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="456" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="744" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -760,6 +760,139 @@
       <section>
         
           
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 15 commits in <div class="repo">arjenzhou/incubator-dubbo</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#bd43fa7</div>
+                        <div class="message">[Enhancement] Improve code coverage and fix some code (#6197)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#594a68f</div>
+                        <div class="message">fix the constant name in LFUCache (#7094)
+
+Co-authored-by: xuekg &lt;xuekg@dcholdings.com&gt;</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#66e8abc</div>
+                        <div class="message">replace common-lang3 StringUtils with dubbo-common StringUtils in NacosRegistry (#7106)
+
+fix #7105</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#27571a0</div>
+                        <div class="message">[Unit Test] Use matrix build workflow &amp; Add Integration Test (#7078)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#d594925</div>
+                        <div class="message">merge migration  rule support from 3.0 (#6773)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#8a6fd8b</div>
+                        <div class="message">update year to 2021 (#7139)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#02f236e</div>
+                        <div class="message">Add Dubbo-Spring-Boot build for github actions (#7135)
+
+* Add Dubbo-Spring-Boot build for github actions
+
+* Add dubbo-spring-boot git branch env
+
+* Add workflow_dispatch support</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7ddf611</div>
+                        <div class="message">[CI] fix snapshot auto deploy</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#b429763</div>
+                        <div class="message">improve dubbo cache and job depends (#7147)
+
+* improve dubbo cache and job depends
+
+* Improve dubbo cache (#1)
+
+Merge Dubbo-Spring-Boot build with Dubbo
+
+* improve dubbo version
+
+Co-authored-by: Albumen Kevin &lt;jhq0812@gmail.com&gt;</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#25761bb</div>
+                        <div class="message">update zk depends (#7152)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f4b225e</div>
+                        <div class="message">Heartbeat skip serialize and deserialize (#7077)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#d70b151</div>
+                        <div class="message">Introcduce DubboBootstrap start/stop listener(#7159)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#75f04bf</div>
+                        <div class="message">[More Optimize]Heartbeat skip serialize and deserialize (#7168)
+
+* 对于心跳的Request、Response，序列化时获取已缓存的null对象的序列化后字节，反序列化时则赋值null，以降低心跳对CPU带来的开销。
+
+* rename method getNullBytes(s) -&gt; getNullBytesOf(s)
+
+* format code
+
+* Use byte array comparison to identify the event is heartbeats
+
+* Use NIO-ThreadLocal buffer to read event payload, to reduce mem cost.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f7c6396</div>
+                        <div class="message">fix bug: config with registries and registryIds, protocols and protocolIds is chaotic (#6968)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6c08866</div>
+                        <div class="message">Simplity some code (#7179)</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
           
             <div class="row fill-width">
               <section class="activity">
