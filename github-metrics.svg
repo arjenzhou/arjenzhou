@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="583" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="580" class="">
     <defs>
         <style/>
     </defs>
@@ -79,28 +79,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#bf6a9b6</div>
-                                        <div class="message">Create CNAME</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">arjenzhou/arjenzhou.github.io</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">gh-pages</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#521f205</div>
-                                        <div class="message">deploy: 06e1796981da1a016be372ee6473d5d212422c0b</div>
+                                        <div class="sha">#d69baf4</div>
+                                        <div class="message">deploy: 2f544d256d58002aee3305a00051246e331e6682</div>
                                     </div>
                                 </div>
                             </section>
@@ -119,8 +99,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#06e1796</div>
-                                        <div class="message">feat: 更换主题</div>
+                                        <div class="sha">#2f544d2</div>
+                                        <div class="message">Keep cname</div>
                                     </div>
                                 </div>
                             </section>
@@ -139,7 +119,7 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3e413ff</div>
+                                        <div class="sha">#f8b717a</div>
                                         <div class="message">Create CNAME</div>
                                     </div>
                                 </div>
@@ -159,8 +139,28 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#e681c04</div>
-                                        <div class="message">deploy: c26ec9c02040c86b576ee3783f7d46019a89ab47</div>
+                                        <div class="sha">#93bf792</div>
+                                        <div class="message">deploy: b8e77ab0118c0945a9579e8387e19fcf368bc027</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">arjenzhou/arjenzhou.github.io</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#b8e77ab</div>
+                                        <div class="message">fix</div>
                                     </div>
                                 </div>
                             </section>
